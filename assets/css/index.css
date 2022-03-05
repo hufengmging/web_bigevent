@@ -1,0 +1,67 @@
+.layui-footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+.iconfont {
+    margin-right: 10px;
+}
+
+.layui-icon {
+    margin-right: 8px;
+    margin-left: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.layui-body {
+    overflow: hidden;
+}
+
+
+/* 强制把自带layui的cs3动画取消 */
+
+a {
+    transition: none !important;
+}
+
+.userinfo {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+    /* 禁止被选中 */
+    user-select: none;
+}
+
+.layui-side-scroll .userinfo {
+    /* 设置下边框 */
+    border-bottom: 1px solid #282b33;
+}
+
+.layui-nav-img {
+    width: 40px;
+    height: 40px;
+}
+
+.text-avatar {
+    /* 把行内元素转为行内块元素 */
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #009688;
+    border-radius: 50%;
+    /* 分别使文本在横向和纵向上都居中 */
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    /* 定为相对定位且top4px挤下去 */
+    position: relative;
+    top: 4px;
+    /* 使距离右边的div隔出间隙 */
+    margin-right: 10px;
+}
